@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: Clone Repo
-      uses: actions/Checkout@main
+      uses: actions/checkout@main
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
